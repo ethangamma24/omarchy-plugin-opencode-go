@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -uo pipefail
-AUTH_JSON="${OPENCODE_AUTH_JSON:-$HOME/.local/share/opencode/auth.json}"
+AUTH_JSON="$HOME/.local/share/opencode/auth.json"
 URL=https://opencode.ai/zen/go/v1/usage
 DB="$HOME/.local/share/opencode/opencode.db"
 
